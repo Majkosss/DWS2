@@ -20,7 +20,7 @@ second_button.addEventListener('click', function(){
 })
 
 function ShowText() {
-    var p = document.createElement("p");
+    const p = document.createElement("p");
     p.innerText = "Ahoj, tohle je text, který hledáš!";
     document.getElementById('text').appendChild(p);
 }
